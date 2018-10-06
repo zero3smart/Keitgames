@@ -1,0 +1,72 @@
+@import "../base/mixin";
+
+.home-container {
+    #mainContent {
+        font-size: 4vh;
+        font-weight: 600;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 2vh;
+        color: #34495e;
+        word-wrap: break-word;
+
+        .largebuttonLightblue {
+            font-weight: 600;
+            color: #FFFFFF !important;
+            font-size: 6vh;
+            padding: 13px 13px;
+            -moz-border-radius: 14px;
+            -webkit-border-radius: 14px;
+            border-radius: 14px;
+            background: #47a9e0;
+            box-shadow: 0px 8px 0px #317399;
+            text-align: center;
+            text-decoration: none;
+            display: -webkit-inline-box;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            margin-top: 20px;
+        }
+
+        .largebuttonLightblue:hover {
+            box-shadow: none;
+            margin-top: 28px;
+            margin-bottom: -8px;
+        }
+
+        .largebutton {
+            font-weight: 600;
+            color: #FFFFFF !important;
+            font-size: 6vh;
+            padding: 13px 13px;
+            -moz-border-radius: 14px;
+            -webkit-border-radius: 14px;
+            border-radius: 14px;
+            background: #34495e;
+            box-shadow: 0px 8px 0px #233140;
+            text-align: center;
+            text-decoration: none;
+            display: -webkit-inline-box;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            margin-top: 20px;
+        }
+
+        .largebutton:hover {
+            box-shadow: none;
+            margin-top: 28px;
+            margin-bottom: -8px;
+        }
+
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font-size: 14px;
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            text-align: center;
+        }
+    }
+}

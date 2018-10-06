@@ -1,0 +1,57 @@
+.primary-header {
+    #header {
+        padding-bottom: 15px;
+        /*background-color:rgba(1,1,1,0.5);*/
+        background: rgba(0, 0, 0, 0.1);
+
+        #headerContent {
+            margin: auto;
+            max-width: 1024px;
+            display: table;
+
+            #headerlogo {
+                height: 16vw;
+                max-height: 10vh;
+                vertical-align: middle;
+                margin-left: 2vh;
+            }
+
+            #headerbuttons {
+                display: -webkit-inline-box;
+
+                .testbutton {
+                    font-weight: 600;
+                    color: #FFFFFF !important;
+                    font-size: 3vh;
+                    padding: 13px 13px;
+                    -moz-border-radius: 14px;
+                    -webkit-border-radius: 14px;
+                    border-radius: 8px;
+                    background: #34495e;
+                    box-shadow: 0px 5px 0px #233140;
+                    text-align: center;
+                    /*
+                    min-width:1vw;
+                    max-width:100px;
+                    position:relative;
+                    transform:translateY(30%);
+                    margin:auto;
+                    */
+                    text-decoration: none;
+                    display: -webkit-inline-box;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                    margin-top: 20px;
+
+                }
+
+                .testbutton:hover {
+                    box-shadow: none;
+                    transform: translateY(5px);
+                }
+            }
+        }
+    }
+
+
+}

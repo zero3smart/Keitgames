@@ -1,0 +1,641 @@
+body {
+    font-family: 'Quicksand', sans-serif !important;
+    margin: 0 !important;
+    color: #34495e !important;
+    font-weight: 600 !important;
+}
+
+a {
+    color: #34495e;
+}
+
+h1 {
+    background-color: #abc123;
+    color: #000000;
+    text-align: left;
+    max-height: 500px;
+}
+
+#mainContentBlog {
+    /*
+    background-image:url('_GameImages/bgContentBlog.png');
+    background-repeat:repeat;
+    width:1024px;
+    */
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    border-left:2px solid #97daf8;
+    border-right:2px solid #97daf8;
+    */
+}
+
+#topBar {
+    /*
+    background-image:url('_GameImages/bgNav.png');
+    background-repeat:repeat;
+    min-width:1028px;
+
+    border-bottom:2px solid #97daf8;
+    */
+    line-height: 130px;
+}
+
+
+#footer {
+    /*
+    background-image:url('_GameImages/bgFooter.png');
+    background-repeat:repeat-x;
+    min-width:1024px;
+    margin:auto;
+    */
+    height: 180px;
+}
+
+#footerLogo {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+    width: 250px;
+}
+
+#footerLogoImage {
+    margin-left: 70px;
+}
+
+#footerContentWrapper {
+    /*
+    width:1024px;
+    */
+    margin: auto;
+    display: table;
+    line-height: 180px;
+}
+
+#footerNav {
+    display: inline-block;
+    line-height: 18px;
+}
+
+.footerText {
+    vertical-align: middle;
+    display: inline-table;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+#footerContactWrapper {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: #fff;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.footerContactItem {
+    display: table;
+}
+
+#nav {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-table;
+    border-left: 2px solid #97daf8;
+    border-right: 2px solid #97daf8;
+    margin-left: -5px;
+}
+
+#outerNavBar {
+    /*
+    width:1028px;
+    */
+    margin: auto;
+    display: table;
+}
+
+#contentMainTitle {
+    color: #34495e;
+    text-align: center;
+    margin: auto;
+    font-size: 6vh;
+    width: 95%;
+    /*
+    max-height: 500px;
+    font-size:3.5em;
+
+    text-shadow:
+        0px 0px 15px #333;
+    */
+}
+
+#presskitMainTitle {
+    color: #fff;
+    text-align: center;
+    max-height: 500px;
+    font-size: 3.5em;
+}
+
+#newsContent {}
+
+#appWrapper {
+    display: table;
+    margin: auto;
+}
+
+#appIcon {}
+
+#appPriceAndLink {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#appPrice {
+    /*font-size:2em;*/
+    font-size: 3vh;
+    text-align: center;
+    /*
+    color:#fff;
+    */
+    padding-top: 20px;
+}
+
+#appLink {}
+
+.appPriceStoreImage {
+    width: 100%;
+    max-width: 275px;
+}
+
+#appNavWrapper {
+    /*
+    border-bottom:2px solid #97daf8;
+    */
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#appNavInnerWrapper {
+    display: table;
+    margin: auto;
+    font-size: 2em;
+}
+
+.appNavItem {
+    display: inline-block;
+    width: 275px;
+    text-align: center;
+}
+
+.appNavItemFour {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+
+.appContentTitle {
+    text-align: center;
+    /*
+    color:#FFFF00;
+    font-size:2.25em;
+    */
+    font-size: 6vh;
+    padding-top: 10px;
+}
+
+#appVideo {
+    margin: auto;
+    /*width:640px;*/
+}
+
+.appVideoDimensions {
+    width: 90vh;
+    height: 90vh;
+    max-width: 640px;
+    max-height: 480px;
+}
+
+#appScreenshotWrapper {
+    margin: auto;
+    /*	width:930px;*/
+    display: table;
+}
+
+.appScreenshotLine {
+    margin: auto;
+    /*
+    display:table;
+    */
+}
+
+.appScreenshot {
+    margin: auto;
+    display: -webkit-inline-box;
+    padding: 5px;
+    /*width:300px;*/
+}
+
+#appDescriptionWrapper {
+    margin: auto;
+    /*
+    width:900px;
+    color:#fff;
+    font-size:1.2em;
+    */
+    font-size: 3vh;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.screenshotPortrait {
+    width: 18vw;
+}
+
+.screenshotPortraitBlackBorder {
+    width: 18vw;
+    border: 1px solid black;
+}
+
+.screenshotLandscape {
+    width: 80vw;
+    max-width: 400px;
+}
+
+.screenshotLandscapeBlackBorder {
+    width: 80vw;
+    max-width: 400px;
+    border: 1px solid black;
+}
+
+
+.blogItemDate {
+    /*color:#DDD;*/
+    font-size: 2vh;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.blogItemWrapper {
+    /*
+    color:#fff;
+    text-align:center;
+    */
+
+    /*
+    border-top:2px solid #97daf8;
+    border-bottom:2px solid #97daf8;
+    */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*
+    background-image: url('_GameImages/bgContent.png');
+    */
+}
+
+.blogTitleWrapper {
+    margin: auto;
+    /*
+    width:900px;
+    color:#fff;
+    font-size:2.5em;
+    */
+    text-align: center;
+}
+
+.blogBriefDescription {
+    margin: auto;
+    width: 700px;
+    /*
+    font-size:1.2em;
+    */
+    text-align: center;
+}
+
+.newsItemTitle {
+    font-size: larger;
+    width: 90%;
+    margin: auto;
+}
+
+.newsItemSubtitle {
+    font-size: smaller;
+    opacity: 0.9;
+}
+
+.blogBannerImage {
+    width: 90%;
+    max-width: 800px;
+}
+
+.blogDescriptionWrapper {
+    margin: auto;
+    width: 80%;
+    /*
+    width:900px;
+    color:#fff;
+    font-size:1.6em;
+    */
+    font-size: 3vh;
+    text-align: center;
+}
+
+.blogDescriptionList {
+    margin: auto;
+    /*width:600px;
+    font-size:0.9em;
+    */
+    width: 80%;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.blogDescriptionCredits {
+    font-size: 0.6em;
+    /*
+    color:#DDD;
+    */
+}
+
+.appMentionWrapper {
+    margin: auto;
+    /*width:900px;*/
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    height: 60px;
+}
+
+.appMention {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.appMentionName {
+    /*font-size:1.3em;*/
+    font-size: 3vh;
+    padding-top: 15px;
+}
+
+.appMentionLink {
+    font-size: 1.0em;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#nav ul li {
+    display: inline-block;
+
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    /*text-shadow:0px 0px 20px #fff;*/
+}
+
+a > img {
+    border: 0;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+.navItem {
+    height: 135px;
+    width: 195px;
+    text-align: center;
+    border-left: 2px solid #97daf8;
+    margin-left: -4px;
+    font-size: 2em;
+}
+
+
+.navItemNoBorder {
+    height: 130px;
+    width: 195px;
+    text-align: center;
+    margin-left: -4px;
+    font-size: 2em;
+}
+
+.navItemWrapper {
+    display: inline-block;
+    vertical-align: middle;
+    height: 65px;
+}
+
+.navItemLine1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: 0px;
+}
+
+.navItemLine2 {
+    padding-top: 20px;
+    line-height: 0px;
+}
+
+.homePageButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 47px;
+}
+
+
+
+.productLine {
+    margin: auto;
+    display: table;
+}
+
+.product {
+    /*
+    width:253px;
+    height:256px;
+    */
+    width: 2vh;
+    height: 2vh;
+    display: inline-table;
+}
+
+.productIcon {
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 5px;
+    /*
+    width:200px;
+    height:200px;
+    */
+}
+
+.productText {
+    /*font-size:1.25em;*/
+    font-size: 3vh;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contactStyle {
+    display: table;
+    margin: auto;
+    /*font-size:1.7em;*/
+    font-size: 3vh;
+    /*color:#fff;*/
+}
+
+
+/*
+    NEW STUFF (2-25-2015)
+*/
+
+
+
+
+
+
+
+
+#footerResponsive {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#footerResponsiveContent {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.footerLink {
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+.productImage {
+    /*
+    width:2vw;
+    height:2vw;
+    */
+    width: 35vw;
+    max-width: 180px;
+    border-radius: 23%;
+}
+
+.productImageBlackBorder {
+    /*
+    width:2vw;
+    height:2vw;
+    */
+    width: 35vw;
+    max-width: 180px;
+    border-radius: 23%;
+    border: 1px solid black;
+}
+
+.emailFormInput {
+    color: inherit;
+
+}
+
+/*
+    END NEW STUFF (2-25-2015)
+*/
+
+.leftboarder {
+    border-left-style: inset;
+    margin-left: -4px;
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+}
+
+.clearboth {
+    clear: both;
+}
+
+html[data-useragent*='MSIE 10.0'] #nav {
+    margin-left: 0px;
+}
+
+html[data-useragent*='MSIE 10.0'] .navItem {
+    width: 194px;
+}
+
+html[data-useragent*='MSIE 10.0'] .navItemNoBorder {
+    width: 194px;
+}
+
+html[data-useragent*='MSIE 10.0'] .center {
+    padding-right: 42px;
+}
+
+@-moz-document url-prefix() {
+    #nav {
+        text-align: center;
+        vertical-align: middle;
+        display: inline-block;
+        border-left: 2px solid #97daf8;
+        border-right: 2px solid #97daf8;
+        margin-left: 0px;
+    }
+
+    .navItem {
+        height: 135px;
+        width: 194px;
+        text-align: center;
+        border-left: 2px solid #97daf8;
+        margin-left: -4px;
+        font-size: 2em;
+    }
+
+    .navItemNoBorder {
+        height: 130px;
+        width: 194px;
+        text-align: center;
+        margin-left: -4px;
+        font-size: 2em;
+    }
+
+    .center {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 42px;
+    }
+}
