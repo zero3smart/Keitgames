@@ -1,2 +1,1 @@
-Worldcup
-http://worldcup.sfg.io/
+React, Redux, Redux Saga
